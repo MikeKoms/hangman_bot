@@ -7,6 +7,6 @@ jdk:
 deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
-  app: hangman
+  app: hangman-application-mg
   on:
     repo: MikeKoms/hangman_bot
