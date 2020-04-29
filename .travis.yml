@@ -3,3 +3,10 @@ dist: xenial
 
 jdk:
   - openjdk11
+
+deploy:
+  provider: heroku:git
+  api_key: $HEROKU_API_KEY
+  app: hangman
+  on:
+    branch: master
