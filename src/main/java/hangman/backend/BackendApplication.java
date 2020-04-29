@@ -13,9 +13,9 @@ public class BackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BackendApplication.class, args);
 
-		ApiContextInitializer.init();
-		TelegramBotsApi botsApi = new TelegramBotsApi();
-		botsApi.registerBot(new HangmanBot());
+		//ApiContextInitializer.init();
+		//TelegramBotsApi botsApi = new TelegramBotsApi();
+		//botsApi.registerBot(new HangmanBot());
 
 
 	}
