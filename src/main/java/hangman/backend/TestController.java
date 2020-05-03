@@ -10,7 +10,7 @@ public class TestController {
 
     @GetMapping("/api/v1/test")
     public String test() {
-        return "I`m alive!";
+        return "Hello, Vanya!!";
     }
 
 }
